@@ -13,9 +13,15 @@ so now i built this plugin to show data from properties in a side panel, that i 
 
 
 # setup
+please make a backup of your vault. i dont think that i wrote code that could destroy anything, but just to be sure!!
+
+download custom-prop-panel and place it in your plugins folder, activate in community plugins after restart. 
+
 in the settings you can set a tag, a folder or both to filter files. 
 then under the properties settings choose one of the files that has the properties in the YAML (it only reads YAML, no inline props) and read in all the properties. 
 YOu can now rearrange by drag and drop, show or hide the key as headers, show or hide headers for nested properties. set links as image, show or hide properties all together or even delete if you never use them. (this will not delete the properties in the files, just in the settings for teh panel)
+
+currently the styles are inside the main.js ... i want to get them back out into a separate css later. it was just more convenient for programming this way. so style is not very nice right now
 
 
 # things i want to add
@@ -24,4 +30,5 @@ YOu can now rearrange by drag and drop, show or hide the key as headers, show or
 - display dates as links to daily notes
 - maybe even include the metadatamenu options to set a field ... i need to look into how to include that - that would be great i guess.
 - better style sheet and direct access to it through setting?
-- 
+
+# tell me what you think!
