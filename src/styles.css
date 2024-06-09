@@ -1,0 +1,90 @@
+/* CSS classes for settings elements */
+
+.drag-handle {
+ border: 0px solid #968e8e;
+ padding: 6px;
+ padding-bottom: 0px;
+ background-color: #efefef;
+ border-radius: 8px;
+ margin-bottom: 4px;
+}
+
+/* reload button */
+.reload-button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.reload-button:hover {
+  background-color: red;
+}
+
+.reload-button .icon {
+  font-size: 16px; /* Adjust the size of the icon */
+}
+
+/* View panel style */
+
+.custom-prop-panel {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 100%;
+
+}
+
+.custom-prop-panel table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.custom-prop-panel th,
+.custom-prop-panel td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+.custom-prop-panel th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-size: 10px;
+}
+
+.custom-prop-panel td {
+  background-color: #fff;
+}
+
+.nested-field {
+  margin-left: 1em;
+}
+
+.custom-prop-panel img {
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-prop-panel h2 {
+  font-size: 10px;
+  margin: 2px;
+}
+
+.custom-prop-panel p {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
