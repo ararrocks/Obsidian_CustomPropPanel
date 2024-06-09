@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.21.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5"
+  },
+  "name": "custom-prop-panel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js && ./sync.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "esbuild-plugin-inline-css": "^0.0.1",
+    "obsidian": "^1.5.7-1"
+  }
+}
