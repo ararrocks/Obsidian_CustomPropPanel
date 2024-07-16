@@ -4,6 +4,7 @@ Obsidian Plugin to show Properties in a side panel - featuring nested Props in T
 
 This is my very first plugin - so please be aware and post any problems. 
 
+https://youtu.be/d1ioGZ7L9qw
 
 # What is this for?
 I was trying to find a good setup to use metadatamenu and meta bind in my Contact management. What i love about the properties that are possible with meta bind (a really amazing plugin!), are nested properties. I could link to another file, and add informations to it. Or build nested stuff like home and work adress, social media handles with different types etc - all neatly sorted and dynamic. 
