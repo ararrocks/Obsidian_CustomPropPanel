@@ -1,10 +1,10 @@
 {
     "id": "custom-prop-panel",
     "name": "Custom Prop Panel",
-    "version": "0.0.1",
+    "version": "0.1.2",
     "minAppVersion": "0.9.12",
     "description": "Simple Plugin to show Custom Props in a Side-Panel",
-    "author": "Arar.rocks",
+    "author": "Arne Nostitz-Rieneck",
     "authorUrl": "",
-    "isDesktopOnly": true
+    "isDesktopOnly": false
   }
